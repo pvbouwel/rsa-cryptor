@@ -11,3 +11,12 @@ Common use case where Alice has secret information she wants to share with Bob:
 
 
 Inspired by: https://kulkarniamit.github.io/whatwhyhow/howto/encrypt-decrypt-file-using-rsa-public-private-keys.html
+
+
+## Installation
+
+You can chose whatever way you want to get the scripts in place but easiest way is to go somewhere on your computer where you want to keep them.
+Then clone the git repo and add the shell directory to your path. The following command does the cloning and shows the statement to run or to add to your shell rc file (if you want it available in every shell in the future):
+```
+git clone git@github.com:pvbouwel/rsa-cryptor.git && cd rsa-cryptor && echo -e "Add export statement to your shell initialization if you want to use the scripts from anywhere and open a new shell\n\texport PATH=\"\$PATH:$(pwd)/shell\""
+```
